@@ -1,0 +1,25 @@
+[versions]
+play2 = "2.8.20"
+play3 = "3.0.8"
+junit-jupiter = "5.14.4"
+junit-platform = "1.14.4"
+logback = "1.5.38"
+lombok = "9.5.0"
+
+[libraries]
+play2-core = { module = "com.typesafe.play:play_2.13", version.ref = "play2" }
+play2-java = { module = "com.typesafe.play:play-java_2.13", version.ref = "play2" }
+play2-server = { module = "com.typesafe.play:play-server_2.13", version.ref = "play2" }
+play2-akka-http-server = { module = "com.typesafe.play:play-akka-http-server_2.13", version.ref = "play2" }
+play2-logback = { module = "com.typesafe.play:play-logback_2.13", version.ref = "play2" }
+play3-core = { module = "org.playframework:play_2.13", version.ref = "play3" }
+play3-java = { module = "org.playframework:play-java_2.13", version.ref = "play3" }
+play3-server = { module = "org.playframework:play-server_2.13", version.ref = "play3" }
+play3-pekko-http-server = { module = "org.playframework:play-pekko-http-server_2.13", version.ref = "play3" }
+play3-logback = { module = "org.playframework:play-logback_2.13", version.ref = "play3" }
+logback-classic = { module = "ch.qos.logback:logback-classic", version.ref = "logback" }
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit-jupiter" }
+junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher", version.ref = "junit-platform" }
+
+[plugins]
+lombok = { id = "io.freefair.lombok", version = "9.5.0" }
